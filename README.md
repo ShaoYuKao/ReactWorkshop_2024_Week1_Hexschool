@@ -11,12 +11,30 @@
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) 使用 [Babel](https://babeljs.io/) 進行快速刷新
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) 使用 [SWC](https://swc.rs/) 進行快速刷新
 
+### 完成條件
+
+- 請透過 Codepen 或 GitHub Pages 提交作業，以方便助教與講師檢視
+- 須自行撰寫 React，若有參考同學作業，請附上參考來源
+- 請勿將提問的問題寫在程式碼中
+- 回報時務必要附上 Discord 名稱、作業等級 .. 等完整繳交內容
+- GitHub Pages 需正常開啟
+- 需至少完成 Lv1 作業等級
+- 以上需符合規定，否則會審核失敗
+
+### 此任務你會獲得以下技能
+
+- 關注點分離
+- 設計模式
+- React 初始化
+
 ## 指令列表
 
 - `npm install` - 初次下載該專案後，需要使用 `npm install` 來安裝套件
 - `npm run dev` - 啟動開發伺服器
+  - 若沒有自動開啟瀏覽器，可嘗試手動在瀏覽器上輸入 `http://localhost:5173`
 - `npm run build` - 打包專案
 - `npm run preview` - 預覽打包後的專案
+- `npm run deploy` - 進行自動化部署
 
 ## 資料夾結構
 
@@ -70,3 +88,36 @@
 **`assets/` 資料夾**
 
 - `react.svg`：React 的標誌檔案。
+
+## 主線任務說明
+
+完成以下兩份作業：
+
+1\. 使用此 [[頁面模板與資料格式](https://codepen.io/hexschool/pen/jENwNZO)] 完成下方功能：
+
+- 使用者可以查看產品列表
+- 使用者可以點擊單一產品，查看詳細資訊
+
+2\. 觀看 [課程影音 - 關注點分離](https://courses.hexschool.com/courses/react-video-course1/lectures/58000034) 並練習 kata
+
+作業須符合此[作業規範](https://hackmd.io/XbKPYiE9Ru6G0sAfB5PBJw)
+
+## **繳交內容**
+
+1. 您的 Discord 使用者名稱
+2. 您的作業等級，請見下方等級表，例如 LV1
+3. 作業網址：請提供 CodePen 或 GitHub Pages 連結，以方便助教與講師檢視
+4. 回報「是否有觀看預習影片？」
+
+#### 作業地雷
+
+- GitHub Pages 需正常開啟
+- 提問超過 2 個問題批改時間會延長
+
+每週主線任務範例：<https://github.com/hexschool/react-training-chapter-2024>
+
+### 挑戰等級
+
+- LV 1｜參考程式碼範例，並重新撰寫及補上註解
+- LV 2｜僅使用課程版型，並重新撰寫產品列表的功能
+- LV 3｜不使用課程版型完成此功能
