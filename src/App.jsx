@@ -77,9 +77,9 @@ function App() {
               {products.map((item) => (
                 <tr key={item.id}>
                   <td>{item.title}</td>
-                  <td>{item.origin_price}</td>
-                  <td>{item.price}</td>
-                  <td>{item.is_enabled ? '啟用' : '未啟用'}</td>
+                  <td className='fw-bold'><del>{item.origin_price}</del></td>
+                  <td className='text-danger fw-bold'>{item.price}</td>
+                  <td>{item.is_enabled ? <span className='text-success'>啟用</span> : <span className='text-danger'>未啟用</span>}</td>
                   <td>
                     <button className="btn btn-primary" onClick={() => setTempProduct(item)}>查看細節</button>
                   </td>

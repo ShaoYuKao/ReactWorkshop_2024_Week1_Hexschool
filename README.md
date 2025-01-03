@@ -31,7 +31,7 @@
 
 - `npm install` - 初次下載該專案後，需要使用 `npm install` 來安裝套件
 - `npm run dev` - 啟動開發伺服器
-  - 若沒有自動開啟瀏覽器，可嘗試手動在瀏覽器上輸入 `http://localhost:5173`
+  - 若沒有自動開啟瀏覽器，可嘗試手動在瀏覽器上輸入 `http://localhost:5173/ReactWorkshop_2024_Week1_Hexschool/`
 - `npm run build` - 打包專案
 - `npm run preview` - 預覽打包後的專案
 - `npm run deploy` - 進行自動化部署
